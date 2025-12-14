@@ -58,6 +58,7 @@ class _StartedState extends State<Started> {
                       onTap: () {
                         Navigator.push(context, MaterialPageRoute(builder: (context) => const Home()));
                       },
+                      
                       child: Container(
                         height: 55,
                         width: double.infinity,
